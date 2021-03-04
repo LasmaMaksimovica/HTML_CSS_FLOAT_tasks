@@ -1,0 +1,94 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(../images/photo-1534665482403-a909d0d97c67.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgb(160, 133, 177);
+}
+
+.full-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+.header-text {
+    padding: 30px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.header-text span {
+    font-style: italic;
+}
+
+.full-form {
+    min-width: 500px;
+    padding: 30px;
+    background-color: rgba(36, 33, 33, 0.8);
+    border: 1px solid rgba(36, 33, 33, 0.8);
+    border-radius: 5px;
+}
+
+.full-form .field {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.field div {
+    line-height: 25px;
+    justify-content: stretch;
+    flex-grow: 1;
+}
+
+.field div span {
+    font-size: 12px;
+}
+
+.item {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.styled-item {
+    display: flex;
+    justify-content: stretch;
+    flex-grow: 1;
+    border-radius: 5px;
+    border: 1px;
+    padding-left: 10px;
+}
+
+.comments-field {
+    display: flex;
+    justify-content: stretch;
+    flex-grow: 1;
+}
+
+div .expand {
+    display: flex;
+}
+
+textarea, .btn {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(51, 170, 97);
+    border: none;
+    color: whitesmoke;
+}

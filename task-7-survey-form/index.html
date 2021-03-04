@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="full-page">
+        <div class="header-text">
+            <div>
+                <h1>
+                    freeCodeCamp Surevey Form
+                </h1>
+            </div>
+            <div>
+                <span>Thank you for taking the time to help us improve the platform</span>
+            </div>
+        </div>
+        <form action="" method="POST">
+            <div class="full-form">
+                <div class="name-field field">
+                    <div>
+                        <label for="input-name-field">Name</label>
+                    </div>
+                    <div class="item">
+                        <input class="styled-item" type="text" name="name-field" id="input-name-field"
+                            placeholder="Enter your name">
+                    </div>
+                </div>
+
+                <div class="email-field field">
+                    <div>
+                        <label for="input-email-field">Email</label>
+                    </div>
+                    <div class="item">
+                        <input class="styled-item" type="text" name="email-field" id="input-email-field"
+                            placeholder="Enter your Email">
+                    </div>
+                </div>
+
+                <div class="age-field field">
+                    <div>
+                        <label for="input-age-field">Age <span>(optional)</span></label>
+                    </div>
+                    <div class="item">
+                        <input class="styled-item" type="text" name="age-field" id="input-age-field" placeholder="Age">
+                    </div>
+                </div>
+
+                <div class="current-role-field field">
+                    <div>
+                        <label for="select-current-role-field">Which option best describes your current
+                            role?</label>
+                    </div>
+                    <div class="item">
+                        <select class="styled-item" name="current-role-field" id="select-current-role-field"
+                            placeholder="Select current role">
+                            <option value="0" disabled selected>Select current role</option>
+                            <option value="1">Learning programming</option>
+                            <option value="2">Just need certificate</option>
+                            <option value="3">Seeking answers</option>
+                            <option value="4">I am an author there</option>
+                            <option value="5">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="recommend-field field">
+                    <div>
+                        Would you recommend freeCodeCamp to a friend?
+                    </div>
+                    <div class="display-row">
+                        <div>
+                            <input type="radio" name="recommend-field" id="definitely-recommend-field"
+                                value="Definitely" checked>
+                            <label for="definitely-recommend-field">Definitely</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="recommend-field" id="maybe-recommend-field" value="Maybe">
+                            <label for="maybe-recommend-field">Maybe</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="recommend-field" id="not-sure-recommend-field" value="Not sure">
+                            <label for="not-sure-recommend-field">Not sure</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="favorite-feature-field field">
+                    <div>
+                        <label for="select-favorite-feature-field">What is your favorite feature of
+                            freeCodeCamp?</label>
+                    </div>
+                    <div class="item">
+                        <select class="styled-item" name="current-role-field" id="select-current-role-field"
+                            placeholder="Select current role">
+                            <option value="0" disabled selected>Select an option</option>
+                            <option value="1">It is for free</option>
+                            <option value="2">Can get certificates</option>
+                            <option value="3">Can make actual projects</option>
+                            <option value="4">Meetups</option>
+                            <option value="5">Forum</option>
+                            <option value="6">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="what-to-improve-field field">
+                    <div>
+                        What would you like to see improve?
+                    </div>
+                    <div class="display-row">
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field"
+                                id="checkbox-improve-front-end-projects">
+                            <label for="checkbox-improve-front-end-projects">Front-end Projects</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field" id="checkbox-improve-back-end-projects">
+                            <label for="checkbox-improve-back-end-projects">Back-end Projects</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field"
+                                id="checkbox-improve-data-visualization">
+                            <label for="checkbox-improve-data-visualization">Data Visualization</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field" id="checkbox-improve-challenges">
+                            <label for="checkbox-improve-challenges">Challenges</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field"
+                                id="checkbox-improve-open-source-community">
+                            <label for="checkbox-improve-open-source-community">Open Source Community</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field" id="checkbox-improve-gitter-help-rooms">
+                            <label for="checkbox-improve-gitter-help-rooms">Gitter help rooms</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field" id="checkbox-improve-videos">
+                            <label for="checkbox-improve-videos">Videos</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field" id="checkbox-improve-city-meetups">
+                            <label for="checkbox-improve-city-meetups">City Meetups</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field" id="checkbox-improve-wiki">
+                            <label for="checkbox-improve-wiki">Wiki</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field" id="checkbox-improve-forum">
+                            <label for="checkbox-improve-forum">Forum</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="what-to-improve-field"
+                                id="checkbox-improve-additional-courses">
+                            <label for="checkbox-improve-additional-courses">Additional Courses</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comments-field field">
+                    <div>
+                        <label for="textarea-comments-field">Any comments or suggestions?</label>
+                    </div>
+                    <div class="expand">
+                        <textarea name="comments-field" id="textarea-comments-field" rows="5"
+                            placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </div>
+
+                <div class="submit field">
+                    <div class="expand">
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

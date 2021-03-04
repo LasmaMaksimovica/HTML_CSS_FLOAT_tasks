@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(194, 178, 209);
+    padding: 10px;
+}
+
+.article-Isaac-Newton {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h4 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h1 {
+    font-weight: 300;
+    color: rgb(81, 71, 175);
+}
+
+h2 {
+    font-weight: 200;
+    color: rgb(20, 92, 64);
+}
+
+ul {
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+.quote {
+    list-style-type: none;
+    font-size: x-large;
+    padding-left: 40px;
+}
+
+.signature {
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.seek-additional-info {
+    font-size: large;
+    color: rgb(192, 9, 192);
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
