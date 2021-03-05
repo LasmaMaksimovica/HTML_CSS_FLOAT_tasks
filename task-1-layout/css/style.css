@@ -4,14 +4,14 @@
 
 body {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .row {
     display: flex;
     width: 740px;
-    align-items: center;
     justify-content: stretch;
+    margin: 0;
 }
 
 .item {
@@ -20,21 +20,21 @@ body {
     background: rgb(199, 202, 202);
     margin: 10px;
     padding: 10px;
-    min-height: 200px;
+    height: 190px;
 }
 
-.row-2-item1 {
+.row1 div {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.row-2-item1, .row-2-item3 {
     flex-grow: 1;
     flex-basis: 0;
 }
 
 .row-2-item2 {
     flex-grow: 2;
-    flex-basis: 0;
-}
-
-.row-2-item3 {
-    flex-grow: 1;
     flex-basis: 0;
 }
 

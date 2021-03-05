@@ -17,7 +17,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,8 +49,8 @@ a {
 .row {
     padding: 20px;
     margin: 0;
-    height: 70px;
     text-align: center;
+    line-height: 1.6;
 }
 
 .Row-1 {

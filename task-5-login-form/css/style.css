@@ -5,6 +5,7 @@
 body {
     background: rgb(226, 226, 228);
     padding: 0;
+    margin: 0;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -28,14 +29,21 @@ body {
 
 .boxes {
     display: flex;
-    max-width: 250px;
+    min-width: 220px;
+    line-height: 35px;
+}
+
+.boxes .item {
+    justify-content: stretch;
+    height: 35px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .email, .password {
     border: 1px solid rgb(189, 188, 188);
-    height: 30px;
     padding-left: 10px;
-    width: 250px;
 }
 
 .email {
@@ -56,8 +64,6 @@ body {
 }
 
 .button {
-    width: 250px;
-    height: 30px;
     border: 1px solid royalblue;
     background-color: royalblue;
     border-radius: 5px;

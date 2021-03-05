@@ -5,11 +5,19 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(143, 211, 238);
+    background-color: rgb(171, 219, 238);
 }
 
 h1, h3 {
     text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h3 {
+    font-weight: 500;
 }
 
 .full-page {
@@ -23,9 +31,9 @@ h1, h3 {
 
 form {
     padding: 20px 70px;
-    border: 1px solid rgb(230, 226, 226);
+    border: 1px solid rgb(245, 238, 238);
     border-radius: 5px;
-    background-color: rgb(230, 226, 226);
+    background-color: rgb(245, 238, 238);
 }
 
 .field {
@@ -39,6 +47,7 @@ form {
     flex-basis: 200px;
     text-align: right;
     padding: 5px;
+    padding-right: 10px;
 }
 
 .right-item {
@@ -46,6 +55,7 @@ form {
     flex-basis: 200px;
     text-align: left;
     padding: 5px;
+    padding-left: 10px;
 }
 
 .answer-space {
@@ -72,8 +82,9 @@ form {
 .btn {
     height: 30px;
     width: 70px;
-    border: 1px solid rgb(67, 131, 226);
+    font-size: medium;
+    border: 1px solid rgb(113, 161, 233);
     border-radius: 5px;
-    background-color: rgb(67, 131, 226);
+    background-color: rgb(113, 161, 233);
     color: mintcream;
 }
